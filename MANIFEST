@@ -1,0 +1,31 @@
+Build.PL
+Changes
+ChangeLog
+GNUmakefile
+LICENSE
+MANIFEST
+META.json
+META.yml
+Build.PL
+Makefile.PL
+README.pod			    # General overview
+bin/terps.pl                        # demo code to try out features
+lib/Term/ReadLine/Perl5/Demo/Cmd/Bindings.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd/Features.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd/debug.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd/help.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd/preinit.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd/ResetTTY.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd/rl_filename_list.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd/rl_bind_keyseq.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd/rl_read_init_file.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd/rl_redisplay.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd/rl_set.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd/SetTTY.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd/tilde_complete.pm
+lib/Term/ReadLine/Perl5/Demo/Cmd.pm
+lib/Term/ReadLine/Perl5/Demo/CmdProc.pm
+lib/Term/ReadLine/Perl5/Demo/Complete.pm
+lib/Term/ReadLine/Perl5/Demo/Load.pm
+t/00test-pod.t				# Make sure POD is Kosher
+SIGNATURE    Added here by Module::Build

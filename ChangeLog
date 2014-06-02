@@ -1,0 +1,81 @@
+2014-06-01  Rocky Bernstein <rocky@cpan.org>
+
+	* MANIFEST, lib/Term/ReadLine/Perl5/Demo/Cmd/Bindings.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/debug.pm,
+	lib/Term/ReadLine/Perl5/Demo/CmdProc.pm,
+	lib/Term/ReadLine/Perl5/Demo/Load.pm: Improve Bindings. Add debug
+	command.
+
+2014-06-01  Rocky Bernstein <rocky@cpan.org>
+
+	* MANIFEST, README.pod, bin/terps.pl,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/Bindings.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/help.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/rl_read_init_file.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/rl_set.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/tilde_complete.pm,
+	lib/Term/ReadLine/Perl5/Demo/CmdProc.pm,
+	lib/Term/ReadLine/Perl5/Demo/Complete.pm: Multi-level history
+	functions added.
+
+2014-05-31  Rocky Bernstein <rocky@cpan.org>
+
+	* README.pod: Another typo
+
+2014-05-31  Rocky Bernstein <rocky@cpan.org>
+
+	* lib/Term/ReadLine/Perl5/Demo/Cmd/Bindings.pm: Correct parsing of
+	binding name in Bindings
+
+2014-05-31  Rocky Bernstein <rocky@cpan.org>
+
+	* MANIFEST, lib/Term/ReadLine/Perl5/Demo/Cmd/Bindings.pm: Add
+	command to show key bindings.
+
+2014-05-31  Rocky Bernstein <rocky@cpan.org>
+
+	* README.pod, lib/Term/ReadLine/Perl5/Demo/Cmd.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/Features.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/help.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/rl_read_init_file.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/tilde_complete.pm,
+	lib/Term/ReadLine/Perl5/Demo/CmdProc.pm: Add section(), msg(), and
+	errmsg() methods
+
+2014-05-31  Rocky Bernstein <rocky@cpan.org>
+
+	* README.pod, lib/Term/ReadLine/Perl5/Demo/Load.pm: Small changes,
+	mostly doc
+
+2014-05-31  Rocky Bernstein <rocky@cpan.org>
+
+	* README.pod: A more complete README.
+
+2014-05-31  Rocky Bernstein <rocky@cpan.org>
+
+	* Build.PL, Changes, MANIFEST, bin/terps.pl, lib/Cmd.pm,
+	lib/Cmd/Features.pm, lib/Cmd/ResetTTY.pm, lib/Cmd/SetTTY.pm,
+	lib/Cmd/help.pm, lib/Cmd/preinit.pm, lib/Cmd/rl_bind_keyseq.pm,
+	lib/Cmd/rl_filename_list.pm, lib/Cmd/rl_read_init_file.pm,
+	lib/Cmd/rl_redisplay.pm, lib/Cmd/rl_set.pm,
+	lib/Cmd/tilde_complete.pm, lib/CmdProc.pm, lib/Load.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/Features.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/ResetTTY.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/SetTTY.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/help.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/preinit.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/rl_bind_keyseq.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/rl_filename_list.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/rl_read_init_file.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/rl_redisplay.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/rl_set.pm,
+	lib/Term/ReadLine/Perl5/Demo/Cmd/tilde_complete.pm,
+	lib/Term/ReadLine/Perl5/Demo/CmdProc.pm,
+	lib/Term/ReadLine/Perl5/Demo/Load.pm: Clean up namespace so it is
+	CPAN friendly. Add parameter count checking.
+
+2014-05-30  Rocky Bernstein <rocky@cpan.org>
+
+	* A REPL to experiment with Term::ReadLine::Perl5
+

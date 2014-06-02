@@ -1,0 +1,67 @@
+=encoding utf8
+
+=head1 NAME
+
+A REPL to experiment with L<Term::ReadLine::Perl5>
+
+=head1 Synopsis
+
+    treps.pl # enter the shell
+
+The program serves several purposes.
+
+For the person who interacts with L<Term::ReadLine::Perl5> as a result
+of using a program that makes use of this library
+e.g. L<Devel::Trepan>, this program can be used to give you an
+understanding of what the capabilities are and how you might bind keys
+to make use of the libraries editing capabilites.
+
+For the person who wants to use the L<Term::ReadLine::Perl5> API, this
+is a pretty solid example of how to use this library. It contains a
+multi-level dynamic completion and saves text in a command history.
+
+It can also be used as an example for how to write a command shell
+where:
+
+=over
+
+=item *
+
+each command is its own module with OO properties like, help text, min
+and max arguments
+
+=item *
+
+command help text is in pod format that appears nicely on terminals
+while also appearing nicely in the POD that appears publically
+
+=item *
+
+the number of parameters passed are checked for validity
+
+=item *
+each command can control its command completion
+
+=back
+
+=head1 HELP!
+
+There's much that can be done here. Please also feel free to modify
+for other readlines like L<Term::ReadLine::Gnu> or L<Caroline>.
+
+=head1 LICENSE
+
+Copyright (c) 2014 Rocky Bernstein.
+
+This program is distributed WITHOUT ANY WARRANTY, including but not
+limited to the implied warranties of merchantability or fitness for a
+particular purpose.
+
+The program is free software. You may distribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation (either version 2 or any later version) and
+the Perl Artistic License as published by O’Reilly Media, Inc. Please
+open the files named gpl-2.0.txt and Artistic for a copy of these
+licenses.
+
+=cut

@@ -1,0 +1,76 @@
+---
+abstract: 'Shell for Term::ReadLine::Perl5'
+author:
+  - 'Rocky Bernstein <rocky@cpan.org>'
+build_requires: {}
+configure_requires:
+  Module::Build: 0.4004
+  perl: 5.006002
+  rlib: 0.02
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Term-ReadLine-Perl5-Demo
+provides:
+  Term::ReadLine::Perl5::Demo::Cmd:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd.pm
+    version: 0.1
+  Term::ReadLine::Perl5::Demo::Cmd::Bindings:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/Bindings.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::Cmd::Features:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/Features.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::Cmd::ResetTTY:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/ResetTTY.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::Cmd::SetTTY:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/SetTTY.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::Cmd::debug:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/debug.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::Cmd::help:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/help.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::Cmd::preinit:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/preinit.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::Cmd::rl_bind_keyseq:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/rl_bind_keyseq.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::Cmd::rl_filename_list:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/rl_filename_list.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::Cmd::rl_read_init_file:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/rl_read_init_file.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::Cmd::rl_redisplay:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/rl_redisplay.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::Cmd::rl_set:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/rl_set.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::Cmd::tilde_complete:
+    file: lib/Term/ReadLine/Perl5/Demo/Cmd/tilde_complete.pm
+    version: 0
+  Term::ReadLine::Perl5::Demo::CmdProc:
+    file: lib/Term/ReadLine/Perl5/Demo/CmdProc.pm
+    version: 0
+requires:
+  Array::Columnize: 1.04
+  Pod::Text::Color: 2.06
+  Term::ReadLine::Perl5: 1.33
+  perl: 5.006002
+  rlib: 0.02
+  version: 0
+resources:
+  bugtracker: https://github.com/rocky/p5-Term-ReadLine-Perl5-Demo/issues
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/rocky/p5-Term-ReadLine-Perl5-Demo
+version: 0.1
+x_test_requires:
+  Test::Pod: 1.44

@@ -1,0 +1,52 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 855d35932ecd746c468c31977664d3e9a95cf988 Build.PL
+SHA1 f732bec49186fff03e204e6defbc2a54a97f2c22 ChangeLog
+SHA1 5ec3e3bb54c0aecba09977e47b116ab737e73526 Changes
+SHA1 ad35d4ad9e96de51a11677ce075e19731336fa82 GNUmakefile
+SHA1 2cdc6028c730caf1505bafb44a7e46bacd074d01 LICENSE
+SHA1 453f5dbfa877b0b551c63e72505a07af380468fc MANIFEST
+SHA1 084bec90928faba8e389448affce371709e8ed47 META.json
+SHA1 79e91f5346751a9d470dd929f9332058a6c961d9 META.yml
+SHA1 b3a63a846921ed50267c1099cc93e5a092a3d165 Makefile.PL
+SHA1 2786ebe22e767e9032e8ef4c6f0687d7411bf25b README.pod
+SHA1 548ea87ff55a3e857fc73aec37ce85ced71defd0 bin/terps.pl
+SHA1 ecefd93f5094b511a70b98675fc8b35dd6f8d644 lib/Term/ReadLine/Perl5/Demo/Cmd.pm
+SHA1 913472345aee83ffadfdeb2cea383c3d9c7e2e00 lib/Term/ReadLine/Perl5/Demo/Cmd/Bindings.pm
+SHA1 b5b2d2240d2830d613d06318c774dca5d8ec3831 lib/Term/ReadLine/Perl5/Demo/Cmd/Features.pm
+SHA1 82ddbfb1077c49b3d7e609dce1e1365796536322 lib/Term/ReadLine/Perl5/Demo/Cmd/ResetTTY.pm
+SHA1 c511e27210e4a3e4af46874465a080ee1464f647 lib/Term/ReadLine/Perl5/Demo/Cmd/SetTTY.pm
+SHA1 222b117ebf7d544b3c57899520639d1ce4930d86 lib/Term/ReadLine/Perl5/Demo/Cmd/debug.pm
+SHA1 023e12d66fb58317417886ae8d8ed11f2b3aa2ad lib/Term/ReadLine/Perl5/Demo/Cmd/help.pm
+SHA1 35a8bde63840ed074af8af0ab948647487ee3145 lib/Term/ReadLine/Perl5/Demo/Cmd/preinit.pm
+SHA1 0a20c83a6afcd54ad1b0b9e443e991890815a759 lib/Term/ReadLine/Perl5/Demo/Cmd/rl_bind_keyseq.pm
+SHA1 cd961b9eb00b76bbb6106f0a668346f451fdd084 lib/Term/ReadLine/Perl5/Demo/Cmd/rl_filename_list.pm
+SHA1 f737b379761248164c846c8eae975a06e08e896f lib/Term/ReadLine/Perl5/Demo/Cmd/rl_read_init_file.pm
+SHA1 8fa466a2ebbd9b2b32b649f0f412c31bea8a2029 lib/Term/ReadLine/Perl5/Demo/Cmd/rl_redisplay.pm
+SHA1 a37ff4acfab6cd795328623fb95d4060dda0ea9b lib/Term/ReadLine/Perl5/Demo/Cmd/rl_set.pm
+SHA1 c9eb026fd45478ae55d1034947edf89cf4e5717d lib/Term/ReadLine/Perl5/Demo/Cmd/tilde_complete.pm
+SHA1 19bc4cb55d720d651054a38e2b59644a11f76222 lib/Term/ReadLine/Perl5/Demo/CmdProc.pm
+SHA1 1f614835a7a1ada946685472919cb40f66f642a1 lib/Term/ReadLine/Perl5/Demo/Complete.pm
+SHA1 16f5af681490e02314b6790482fa0af6b924cc90 lib/Term/ReadLine/Perl5/Demo/Load.pm
+SHA1 0028fef9be7783d9eba29ae4d3940cc99cc8d14e t/00test-pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAlOL//sACgkQGo3lAIJ17CGV3wCfVRM68nu6XRbBDpE054tAKJYI
+gm0AniDV8wOS/+N0wDHxPp+LwxUzXhgY
+=8vz4
+-----END PGP SIGNATURE-----
